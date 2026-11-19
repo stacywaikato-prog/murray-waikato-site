@@ -162,9 +162,7 @@ export const meta: Record<ImageId, Meta> = {
     caption: "Five taiaha side by side, each at a different stage of carving." },
 
   // Personal gift with a named inscription (“Hari Huritau Anaru”). Hidden until the recipient/Murray consent.
-  "named-piece": { title: "Named gift piece", role: "finished", series: "timber", rank: 31, published: false,
-    alt: "A pale timber double-headed carving with spiral relief, inscribed with a name on a blue band, lying on a hedge.",
-    caption: "A named gift piece." },
+  // "named-piece" (inscribed gift piece) is withheld until Murray confirms consent; its image is not generated.
 };
 
 export const all = (Object.keys(meta) as ImageId[])
