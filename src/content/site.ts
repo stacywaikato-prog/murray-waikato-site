@@ -15,13 +15,13 @@ export const site = {
 };
 
 export const pepeha = [
-  { reo: "Putauaki", label: "te Maunga", en: "Mountain", core: true },
-  { reo: "Rangitaiki", label: "te Awa", en: "River", core: true },
-  { reo: "Ngāti Awa", label: "te Iwi", en: "Tribe", core: true },
-  { reo: "Mataatua", label: "te Waka", en: "Canoe", core: true },
-  { reo: "Ruaihona", label: "te Wharetipuna", en: "Meeting house", core: false },
-  { reo: "Mahanga i te Rangi", label: "te Wharekai", en: "Dining hall", core: false },
-  { reo: "Ngāi Tamaoki", label: "te Hapū", en: "Subtribe", core: true },
+  { reo: "Putauaki", label: "te Maunga", en: "Maunga", core: true },
+  { reo: "Rangitaiki", label: "te Awa", en: "Awa", core: true },
+  { reo: "Ngāti Awa", label: "te Iwi", en: "Iwi", core: true },
+  { reo: "Mataatua", label: "te Waka", en: "Waka", core: true },
+  { reo: "Ruaihona", label: "te Wharetipuna", en: "Wharetipuna", core: false },
+  { reo: "Mahanga i te Rangi", label: "te Wharekai", en: "Wharekai", core: false },
+  { reo: "Ngāi Tamaoki", label: "te Hapū", en: "Hapū", core: true },
   { reo: "Ruaihona", label: "te Marae", en: "Marae", core: true },
 ] as const;
 

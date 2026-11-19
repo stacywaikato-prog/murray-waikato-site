@@ -45,7 +45,7 @@ export default function Home() {
           <ul className="mx-auto grid max-w-7xl grid-cols-2 gap-x-6 gap-y-6 px-5 py-8 md:grid-cols-4 md:px-10">
             {pepeha.map((p) => (
               <li key={p.label}>
-                <p className="eyebrow text-stone">{p.en}</p>
+                <p className="eyebrow text-stone" lang="mi">{p.en}</p>
                 <p className="display mt-1 text-xl"><Reo>{p.reo}</Reo></p>
               </li>
             ))}
@@ -126,7 +126,7 @@ export default function Home() {
             <h2 className="mt-4 text-4xl md:text-6xl">Where the work comes from.</h2>
           </div>
           <div className="md:col-span-6 md:col-start-7">
-            <p className="text-xl leading-relaxed">Mountain, river, people, canoe, meeting house, dining hall, hapū, marae: Murray introduces himself in that order. His whakapapa has its own page, with his greeting and a verse in his own words.</p>
+            <p className="text-xl leading-relaxed"><Reo>Maunga, awa, iwi, waka, wharetipuna, wharekai, hapū, marae</Reo>: Murray introduces himself in that order. His whakapapa has its own page, with his greeting and a verse in his own words.</p>
             <Link href="/whakapapa/" className="mt-8 inline-block border-b border-kokowai pb-1 text-sm">Read the whakapapa</Link>
           </div>
         </div>

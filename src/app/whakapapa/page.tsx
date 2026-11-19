@@ -27,7 +27,7 @@ export default function Whakapapa() {
             {pepeha.map((p) => (
               <li key={p.label} className="grid grid-cols-[1fr_auto] items-baseline gap-4 border-b border-ink/15 py-5">
                 <span className="display text-2xl md:text-4xl"><Reo>Ko <strong className="font-semibold">{p.reo}</strong> {p.label}</Reo></span>
-                <span className="eyebrow text-umber">{p.en}</span>
+                <span className="eyebrow text-umber" lang="mi">{p.en}</span>
               </li>
             ))}
           </ul>
