@@ -20,10 +20,10 @@ export default function Works() {
       <div className="mx-auto max-w-7xl space-y-24 px-5 pb-28 md:space-y-36 md:px-10">
         {works.map((w, i) => (
           <section key={w.slug} className="grid items-center gap-8 md:grid-cols-12 md:gap-12">
-            <Link href={`/works/${w.slug}/`} className={`group block md:col-span-6 ${i % 2 ? "md:order-2" : ""}`} aria-label={`View ${w.title}`}>
-              <div className="overflow-hidden"><Photo id={w.lead} sizes="(min-width:768px) 45vw, 100vw" className="transition-transform duration-700 group-hover:scale-[1.03]" /></div>
+            <Link href={`/works/${w.slug}/`} className={`group block md:col-span-6 ${i % 2 ? "md:col-start-7 md:row-start-1" : ""}`} aria-label={`View ${w.title}`}>
+              <div className="aspect-[4/3] overflow-hidden"><Photo id={w.lead} fit position={w.leadPos} sizes="(min-width:768px) 45vw, 100vw" className="transition-transform duration-700 group-hover:scale-[1.03]" /></div>
             </Link>
-            <div className="md:col-span-5 md:col-start-8">
+            <div className={`md:col-span-5 ${i % 2 ? "md:col-start-1 md:row-start-1" : "md:col-start-8"}`}>
               <p className="eyebrow text-rimu">No. {w.no} · {w.material}</p>
               <h2 className="mt-3 text-4xl md:text-5xl">{w.title}</h2>
               {w.reo && <p className="mt-2 text-stone"><Reo>{w.reo}</Reo></p>}

@@ -77,8 +77,8 @@ export default function Home() {
         </div>
         <div className="mt-14 grid gap-x-6 gap-y-16 md:grid-cols-12">
           {featured.map((w, i) => (
-            <Link key={w.slug} href={`/works/${w.slug}/`} className={`group block ${i === 0 ? "md:col-span-6" : i === 1 ? "md:col-span-6 md:mt-32" : "md:col-span-6 md:col-start-4"}`}>
-              <div className="overflow-hidden"><Photo id={w.lead} fit position={w.leadPos} sizes="(min-width:768px) 45vw, 100vw" className="aspect-[4/5] transition-transform duration-700 group-hover:scale-[1.03]" /></div>
+            <Link key={w.slug} href={`/works/${w.slug}/`} className="group block md:col-span-4">
+              <div className="overflow-hidden"><Photo id={w.lead} fit position={w.leadPos} sizes="(min-width:768px) 30vw, 100vw" className="aspect-[4/5] transition-transform duration-700 group-hover:scale-[1.03]" /></div>
               <p className="eyebrow mt-5 text-rimu">No. {w.no} · {w.material}</p>
               <h3 className="mt-2 text-3xl">{w.title}</h3>
               <p className="mt-2 max-w-md text-stone">{w.summary}</p>
@@ -98,19 +98,19 @@ export default function Home() {
           </div>
           <div className="mt-14 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-6">
             <figure>
-              <Photo id="pounamu-slab-river" sizes="(min-width:768px) 23vw, 50vw" />
+              <Photo id="pounamu-slab-river" fit sizes="(min-width:768px) 23vw, 50vw" className="aspect-[3/4]" />
               <figcaption className="eyebrow mt-3 text-stone">Stone</figcaption>
             </figure>
-            <figure className="mt-8 md:mt-16">
-              <Clip id="slab-to-light" />
+            <figure>
+              <Clip id="slab-to-light" className="aspect-[3/4] object-cover" />
               <figcaption className="eyebrow mt-3 text-stone">Cut</figcaption>
             </figure>
             <figure>
-              <Photo id="hei-tiki-layout-slab" sizes="(min-width:768px) 23vw, 50vw" />
+              <Photo id="hei-tiki-layout-slab" fit sizes="(min-width:768px) 23vw, 50vw" className="aspect-[3/4]" />
               <figcaption className="eyebrow mt-3 text-stone">Line</figcaption>
             </figure>
-            <figure className="mt-8 md:mt-16">
-              <Photo id="toki-pendants-pair" sizes="(min-width:768px) 23vw, 50vw" />
+            <figure>
+              <Photo id="toki-pendants-pair" fit sizes="(min-width:768px) 23vw, 50vw" className="aspect-[3/4]" />
               <figcaption className="eyebrow mt-3 text-stone">Finished</figcaption>
             </figure>
           </div>

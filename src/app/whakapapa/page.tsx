@@ -18,16 +18,15 @@ export default function Whakapapa() {
         <div lang="mi" className="display mt-10 space-y-1 text-2xl text-parchment md:text-4xl">
           {greeting.map((l) => <p key={l}>{l}</p>)}
         </div>
-        <p className="mt-8 max-w-2xl text-lg text-bone">Murray introduces himself the way he was taught to: mountain, river, people, canoe, meeting house, dining hall, hapū, marae. Everything on this site begins there.</p>
+        <p className="mt-8 max-w-2xl text-lg text-bone">Murray introduces himself the way he was taught to: <Reo>maunga, awa, iwi, waka, wharetipuna, wharekai, hapū, marae</Reo>. Everything on this site begins there.</p>
       </header>
 
       <section className="on-light bg-parchment text-ink">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 py-20 md:grid-cols-12 md:px-10 md:py-28">
           <ul className="md:col-span-7">
             {pepeha.map((p) => (
-              <li key={p.label} className="grid grid-cols-[1fr_auto] items-baseline gap-4 border-b border-ink/15 py-5">
+              <li key={p.label} className="border-b border-ink/15 py-5">
                 <span className="display text-2xl md:text-4xl"><Reo>Ko <strong className="font-semibold">{p.reo}</strong> {p.label}</Reo></span>
-                <span className="eyebrow text-umber" lang="mi">{p.en}</span>
               </li>
             ))}
           </ul>
