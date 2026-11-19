@@ -21,7 +21,7 @@ export default function Home() {
       <section className="relative overflow-hidden">
         <div className="relative md:min-h-[calc(100svh-4rem)]">
           <div className="relative aspect-[5/4] w-full md:absolute md:inset-y-0 md:right-0 md:aspect-auto md:w-[64%]">
-            <Photo id="timber-spiral-form" priority fit sizes="(min-width:768px) 64vw, 100vw" position="55% 55%" />
+            <Photo id="putauaki-river" priority fit sizes="(min-width:768px) 64vw, 100vw" position="45% 50%" />
             <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-ink via-ink/10 to-transparent md:bg-gradient-to-r md:from-ink md:via-ink/40 md:to-transparent" />
             <div aria-hidden="true" className="absolute inset-x-0 bottom-0 hidden h-40 bg-gradient-to-t from-ink to-transparent md:block" />
           </div>
@@ -37,7 +37,7 @@ export default function Home() {
                 <Link href="/commissioning/" className="border border-stone bg-ink/40 px-7 py-3.5 text-sm text-parchment transition-colors hover:border-parchment">Start an enquiry</Link>
               </div>
             </div>
-            <p className="mt-10 text-xs text-stone md:absolute md:bottom-8 md:right-10 md:mt-0 md:max-w-xs md:text-right">{meta["timber-spiral-form"].caption}</p>
+            <p className="mt-10 text-xs text-stone md:absolute md:bottom-8 md:right-10 md:mt-0 md:max-w-xs md:text-right">{meta["putauaki-river"].caption}</p>
           </div>
         </div>
         {/* Pepeha strip */}
