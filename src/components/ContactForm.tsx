@@ -38,6 +38,7 @@ export function ContactForm() {
       <div><label htmlFor="message">Tell Murray about the work</label><textarea id="message" name="message" rows={6} required className={field} placeholder="Who it’s for, where it will live, when you need it." /></div>
       <p className="hidden" aria-hidden="true"><label>Leave this empty <input type="text" name="bot-field" tabIndex={-1} autoComplete="off" /></label></p>
       <button type="submit" disabled={state === "sending"} className="min-h-12 bg-parchment px-10 text-sm font-medium text-ink disabled:opacity-60">{state === "sending" ? "Sending…" : "Send enquiry"}</button>
+      <p className="text-sm text-stone">Your details are used only to reply to you. See the <a className="underline decoration-rimu underline-offset-4" href="/privacy/">privacy statement</a>.</p>
       {state === "error" && <p role="alert" className="text-rimu">That didn’t send. Please call Murray on {site.phone} or <a className="underline" href={mailto}>email him</a>.</p>}
     </form>
   );

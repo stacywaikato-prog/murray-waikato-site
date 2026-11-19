@@ -25,6 +25,7 @@ export function Footer() {
           <p><a className="text-parchment underline decoration-rimu underline-offset-4" href={site.phoneHref}>{site.phone}</a></p>
           <p className="mt-1"><a className="text-parchment underline decoration-rimu underline-offset-4" href={`mailto:${site.email}`}>{site.email}</a></p>
           <p className="mt-8">© {new Date().getFullYear()} Murray Waikato. All work shown is by Murray Waikato.</p>
+          <p className="mt-3 flex gap-5"><Link prefetch={false} className="inline-block py-2 hover:text-parchment" href="/privacy/">Privacy &amp; cookies</Link><Link prefetch={false} className="inline-block py-2 hover:text-parchment" href="/terms/">Terms</Link></p>
         </div>
       </div>
     </footer>
