@@ -3,7 +3,6 @@ import "./globals.css";
 import { ScrollTop } from "@/components/ScrollTop";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { MobileEnquiry } from "@/components/MobileEnquiry";
 import { site } from "@/content/site";
 
 export const viewport: Viewport = { themeColor: "#0f0e0c", width: "device-width", initialScale: 1 };
@@ -34,7 +33,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main" className="pt-16">{children}</main>
         <Footer />
-        <MobileEnquiry />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </body>
     </html>

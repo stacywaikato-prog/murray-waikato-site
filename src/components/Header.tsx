@@ -18,6 +18,8 @@ export function Header() {
             ))}
           </ul>
         </nav>
+        <div className="flex items-center gap-1 lg:hidden">
+        <Link href="/contact/" onClick={() => setOpen(false)} className="bg-kokowai px-4 py-2 text-sm font-medium text-parchment">Enquire</Link>
         <button type="button" aria-expanded={open} aria-controls="mobile-nav" onClick={() => setOpen(!open)}
           className="-mr-2 flex h-11 w-11 items-center justify-center lg:hidden">
           <span className="sr-only">{open ? "Close menu" : "Open menu"}</span>
@@ -25,6 +27,7 @@ export function Header() {
             {open ? <path d="M5 5l14 14M19 5L5 19" /> : <path d="M3 8h18M3 16h18" />}
           </svg>
         </button>
+        </div>
       </div>
       {open && (
         <nav id="mobile-nav" aria-label="Mobile" className="border-t border-ash bg-ink lg:hidden">
@@ -34,7 +37,7 @@ export function Header() {
                 <Link href={n.href} onClick={() => setOpen(false)} className="display block border-b border-ash py-4 text-2xl text-parchment">{n.label}</Link>
               </li>
             ))}
-            <li className="pt-5"><a href={site.phoneHref} className="text-stone">{site.phone}</a></li>
+            <li className="pt-5"><a href={site.phoneHref} className="text-parchment">Call Murray · {site.phone}</a></li>
           </ul>
         </nav>
       )}
