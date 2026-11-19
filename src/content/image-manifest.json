@@ -1,0 +1,444 @@
+{
+ "pierced-panel": {
+  "w": 720,
+  "h": 952,
+  "color": "#88756b",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "toki-river-stones": {
+  "w": 720,
+  "h": 952,
+  "color": "#494c48",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "hei-tiki-backlit": {
+  "w": 720,
+  "h": 1248,
+  "color": "#3e4030",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "pounamu-slab-river": {
+  "w": 720,
+  "h": 952,
+  "color": "#7c8282",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "toki-pendants-pair": {
+  "w": 720,
+  "h": 953,
+  "color": "#496052",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "pendant-earring-set": {
+  "w": 720,
+  "h": 952,
+  "color": "#5f6854",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "hei-tiki-layout-slab": {
+  "w": 720,
+  "h": 953,
+  "color": "#908473",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "boxed-toki-pendants": {
+  "w": 720,
+  "h": 1288,
+  "color": "#836e51",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "wip-silhouette": {
+  "w": 720,
+  "h": 952,
+  "color": "#7b674a",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "layout-studies": {
+  "w": 720,
+  "h": 952,
+  "color": "#61533f",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "workbench-axe": {
+  "w": 1536,
+  "h": 2048,
+  "color": "#5a4220",
+  "widths": [
+   480,
+   800,
+   1200,
+   1536
+  ]
+ },
+ "haft-detail": {
+  "w": 1536,
+  "h": 2048,
+  "color": "#664c29",
+  "widths": [
+   480,
+   800,
+   1200,
+   1536
+  ]
+ },
+ "workbench-axe-low-light": {
+  "w": 720,
+  "h": 952,
+  "color": "#534026",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "timber-blade-hedge": {
+  "w": 720,
+  "h": 1446,
+  "color": "#728c7f",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "crescent-pendants": {
+  "w": 720,
+  "h": 953,
+  "color": "#507257",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "plinth-form": {
+  "w": 720,
+  "h": 1336,
+  "color": "#858271",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "tiki-paua-earrings": {
+  "w": 946,
+  "h": 1495,
+  "color": "#747974",
+  "widths": [
+   480,
+   800,
+   946
+  ]
+ },
+ "pectoral-boxed": {
+  "w": 918,
+  "h": 1555,
+  "color": "#7a7b77",
+  "widths": [
+   480,
+   800,
+   918
+  ]
+ },
+ "blue-slab-light": {
+  "w": 720,
+  "h": 952,
+  "color": "#575864",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "stone-blanks": {
+  "w": 720,
+  "h": 666,
+  "color": "#9aa4a6",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "pectoral-sunlit": {
+  "w": 676,
+  "h": 802,
+  "color": "#53773c",
+  "widths": [
+   480,
+   676
+  ]
+ },
+ "blue-lashed-pendant": {
+  "w": 720,
+  "h": 952,
+  "color": "#4a5383",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "blue-mere-feathers": {
+  "w": 720,
+  "h": 952,
+  "color": "#3c2a30",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "blue-tiki-gears": {
+  "w": 720,
+  "h": 952,
+  "color": "#334265",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "blue-tiki-held": {
+  "w": 720,
+  "h": 952,
+  "color": "#4c6284",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "feathered-blade-tree": {
+  "w": 720,
+  "h": 952,
+  "color": "#586546",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "beach-lineup": {
+  "w": 720,
+  "h": 952,
+  "color": "#847b6d",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "boxed-taonga-set": {
+  "w": 1376,
+  "h": 1516,
+  "color": "#674b45",
+  "widths": [
+   480,
+   800,
+   1200,
+   1376
+  ]
+ },
+ "rakau-in-progress": {
+  "w": 720,
+  "h": 952,
+  "color": "#887672",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "beach-staff": {
+  "w": 720,
+  "h": 952,
+  "color": "#828a90",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "reiputa-whalebone": {
+  "w": 720,
+  "h": 1156,
+  "color": "#806d56",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "boxed-pale-earrings": {
+  "w": 582,
+  "h": 1235,
+  "color": "#422826",
+  "widths": [
+   480,
+   582
+  ]
+ },
+ "mere-arahura": {
+  "w": 719,
+  "h": 1346,
+  "color": "#82755d",
+  "widths": [
+   480,
+   719
+  ]
+ },
+ "curved-pendant-toggle": {
+  "w": 720,
+  "h": 960,
+  "color": "#aa8870",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "heart-set": {
+  "w": 720,
+  "h": 960,
+  "color": "#99978f",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "purple-stone-close": {
+  "w": 720,
+  "h": 928,
+  "color": "#957e74",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "purple-toki-cord": {
+  "w": 720,
+  "h": 1080,
+  "color": "#ab816f",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "axe-hedge": {
+  "w": 720,
+  "h": 960,
+  "color": "#67843b",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "bone-earrings-slab": {
+  "w": 720,
+  "h": 960,
+  "color": "#78827a",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "red-club-feathers": {
+  "w": 720,
+  "h": 960,
+  "color": "#696d51",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "half-moon-pendant": {
+  "w": 720,
+  "h": 960,
+  "color": "#788069",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "axe-bone-handle": {
+  "w": 720,
+  "h": 1096,
+  "color": "#8f8a81",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "timber-spiral-form": {
+  "w": 720,
+  "h": 572,
+  "color": "#a38c77",
+  "widths": [
+   480,
+   720
+  ]
+ },
+ "hei-tiki-wet": {
+  "w": 1274,
+  "h": 1741,
+  "color": "#7b867c",
+  "widths": [
+   480,
+   800,
+   1200,
+   1274
+  ]
+ },
+ "face-cog-inlays": {
+  "w": 589,
+  "h": 615,
+  "color": "#737560",
+  "widths": [
+   480,
+   589
+  ]
+ },
+ "hafted-toki-feathers": {
+  "w": 752,
+  "h": 1020,
+  "color": "#8c837e",
+  "widths": [
+   480,
+   752
+  ]
+ },
+ "club-turquoise": {
+  "w": 752,
+  "h": 1020,
+  "color": "#817f6d",
+  "widths": [
+   480,
+   752
+  ]
+ },
+ "green-carved-form": {
+  "w": 632,
+  "h": 1020,
+  "color": "#6e6c3e",
+  "widths": [
+   480,
+   632
+  ]
+ }
+}
