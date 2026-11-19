@@ -8,7 +8,7 @@ import { meta } from "@/content/images";
 import { pageMeta } from "@/lib-seo";
 
 export const metadata = pageMeta(
-  "Murray Waikato — Māori Master Carver, Te Teko",
+  "Murray Waikato — Whakairo & Contemporary Art, Te Teko",
   "Whakairo in timber and pounamu by Murray Waikato of Te Teko, Ngāti Awa ki Rangitaiki. Marae and wharenui carving, cultural commissions, local and international projects.",
   "/", "Murray Waikato — Whakairo from Te Teko", "Carving in timber and pounamu, carried from Putauaki, Rangitaiki and Ngāti Awa ki Rangitaiki.",
 );
@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div className="relative mx-auto flex max-w-7xl flex-col justify-center px-5 pb-14 md:min-h-[calc(100svh-4rem)] md:px-10 md:py-16">
             <div className="rise -mt-16 md:mt-0 md:max-w-[38rem]">
-              <p className="eyebrow text-rimu">Master carver · Contemporary artist</p>
+              <p className="eyebrow text-rimu">Contemporary artist</p>
               <h1 className="mt-6 text-[clamp(2.75rem,7.5vw,6.25rem)]"><Reo>Whakairo</Reo> from <Reo>Te&nbsp;Teko</Reo>.</h1>
               <p className="mt-8 max-w-md text-lg text-bone">
                 Murray Waikato carves timber and pounamu in the knowledge of Ngāti Awa ki Rangitaiki, the work of more than twenty years.

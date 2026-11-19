@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-3 md:px-10">
         <div>
           <p className="display text-2xl">Murray Waikato</p>
-          <p className="eyebrow mt-2 text-stone">Māori master carver · <Reo>Te Teko</Reo></p>
+          <p className="eyebrow mt-2 text-stone">Contemporary artist · <Reo>Te Teko</Reo></p>
           <p className="mt-6 text-sm leading-relaxed text-stone">
             {pepeha.filter((p) => p.core).map((p, i, a) => (
               <span key={p.label}><Reo>Ko {p.reo} {p.label}</Reo>{i < a.length - 1 ? " · " : ""}</span>

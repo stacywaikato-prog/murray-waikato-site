@@ -10,13 +10,13 @@ export const viewport: Viewport = { themeColor: "#0f0e0c", width: "device-width"
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "Murray Waikato — Māori Master Carver, Te Teko", template: "%s — Murray Waikato" },
+  title: { default: "Murray Waikato — Whakairo & Contemporary Art, Te Teko", template: "%s — Murray Waikato" },
   description: "Whakairo in timber and pounamu by Murray Waikato of Te Teko — Ngāti Awa ki Rangitaiki. Marae and wharenui carving, cultural commissions and collaborations.",
   openGraph: { siteName: site.name, locale: "en_NZ", type: "website", images: ["/og.jpg"] },
 };
 
 const jsonLd = {
-  "@context": "https://schema.org", "@type": "Person", name: site.name, jobTitle: "Māori master carver (kaiwhakairo)",
+  "@context": "https://schema.org", "@type": "Person", name: site.name, jobTitle: "Kaiwhakairo and contemporary artist",
   telephone: "+64204241602", email: site.email, url: site.url,
   description: "Māori carver from Te Teko, of Ngāti Awa ki Rangitaiki, carving in timber and pounamu.",
   knowsAbout: ["Whakairo", "Māori carving", "Pounamu", "Marae carving"],

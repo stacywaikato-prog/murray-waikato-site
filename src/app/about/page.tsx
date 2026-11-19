@@ -16,7 +16,7 @@ export default function About() {
       <header className="mx-auto max-w-7xl px-5 pb-16 pt-20 md:px-10 md:pt-32">
         <p className="eyebrow text-rimu">About the artist</p>
         <h1 className="mt-5 text-[clamp(2.75rem,7vw,6rem)]">Murray Waikato</h1>
-        <p className="mt-4 max-w-2xl text-xl text-bone">Māori master carver, <Reo>Te Teko</Reo>. <Reo>Ngāti Awa ki Rangitaiki.</Reo></p>
+        <p className="mt-4 max-w-2xl text-xl text-bone">Contemporary artist, <Reo>Te Teko</Reo>. <Reo>Ngāti Awa ki Rangitaiki.</Reo></p>
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-12 px-5 pb-28 md:grid-cols-12 md:px-10">

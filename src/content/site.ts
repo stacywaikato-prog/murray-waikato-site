@@ -2,7 +2,7 @@
 // Change values here; nothing is hard-coded elsewhere.
 export const site = {
   name: "Murray Waikato",
-  role: "Māori master carver",
+  role: "Contemporary artist",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.example.com", // TODO set real domain
   phone: "020 424 1602",
   phoneHref: "tel:+64204241602",
