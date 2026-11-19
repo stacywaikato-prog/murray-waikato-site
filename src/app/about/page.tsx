@@ -24,11 +24,10 @@ export default function About() {
           <div className="md:sticky md:top-28">
             <Photo id="workbench-axe" sizes="(min-width:768px) 30vw, 100vw" position="50% 40%" className="aspect-[4/5] object-cover" fit />
             <p className="mt-3 text-xs text-stone">The workbench: grinder, vice, chisels, shavings.</p>
-            <dl className="mt-8 space-y-3 border-t border-ash pt-6 text-sm">
-              {[["Maunga", "Putauaki"], ["Awa", "Rangitaiki"], ["Iwi", "Ngāti Awa"], ["Waka", "Mataatua"], ["Wharetipuna", "Ruaihona"], ["Wharekai", "Mahanga i te Rangi"], ["Hapū", "Ngāi Tamaoki"], ["Marae", "Ruaihona"]].map(([k, v]) => (
-                <div key={k} className="flex justify-between"><dt className="text-stone" lang="mi">{k}</dt><dd><Reo>{v}</Reo></dd></div>
-              ))}
-            </dl>
+            <p className="mt-8 border-t border-ash pt-6 text-sm leading-relaxed text-stone">
+              <Reo>Ko Putauaki te maunga, ko Rangitaiki te awa, ko Ngāti Awa te iwi.</Reo>{" "}
+              <Link href="/whakapapa/" className="text-parchment underline decoration-rimu underline-offset-4">Read his whakapapa</Link>
+            </p>
           </div>
         </aside>
 

@@ -1,5 +1,6 @@
 import { Reo } from "@/components/Reo";
 import { Photo } from "@/components/Photo";
+import { meta } from "@/content/images";
 import { pepeha, verse, site, greeting, whakaritorito } from "@/content/site";
 import { pageMeta } from "@/lib-seo";
 
@@ -37,16 +38,10 @@ export default function Whakapapa() {
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-12 px-5 py-24 md:grid-cols-12 md:px-10 md:py-32">
-        <div className="md:col-span-5">
-          <Photo id="pounamu-slab-river" sizes="(min-width:768px) 40vw, 100vw" />
-          <p className="mt-3 text-xs text-stone">Green stone in the shallows of a river.</p>
-        </div>
-        <div className="space-y-6 text-lg leading-[1.8] text-bone md:col-span-6 md:col-start-7">
-          <p><Reo>Te Teko</Reo> is the small rural settlement town Murray comes from. He is <Reo>uri</Reo> of Mataatua, and he carries the carving knowledge of Ngāti Awa ki Rangitaiki.</p>
-          <p>This page sets those names down in full.</p>
-        </div>
-      </section>
+      <figure className="relative">
+        <Photo id="putauaki-wide" fit sizes="100vw" position="30% 50%" className="aspect-[4/3] md:aspect-[21/9]" />
+        <figcaption className="mx-auto max-w-7xl px-5 pt-3 text-xs text-stone md:px-10">{meta["putauaki-wide"].caption}</figcaption>
+      </figure>
 
       {site.showVerse && (
         <section className="bg-basalt">

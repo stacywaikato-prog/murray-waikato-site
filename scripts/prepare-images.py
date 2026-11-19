@@ -30,7 +30,7 @@ SRC = {  # id -> original file prefix
  # batch 5
  "hafted-toki-feathers":"0b607984","club-turquoise":"507b1682","green-carved-form":"fca9305c",
  # landscape
- "putauaki-river":"e0e331f4",
+ "putauaki-river":"e0e331f4","putauaki-wide":"6eb3229a",
 }
 # pixel crops applied before bar removal (phone screenshots with status bars)
 PRE = {"reiputa-whalebone": (0, 224, 720, 1380)}
@@ -45,6 +45,7 @@ BOX = {
  "timber-spiral-form": (0.0, 0.20, 1.0, 0.80),
  "green-carved-form": (0.12, 0.0, 0.96, 1.0),
  "putauaki-river": (0.0, 0.20, 1.0, 0.80),
+ "putauaki-wide": (0.0, 0.30, 1.0, 0.93),
  "boxed-taonga-set": (0.03, 0.05, 0.93, 0.79),     # drop empty box lid         # drop vehicle cover logo
 }
 up, site = Path(sys.argv[1]), Path(sys.argv[2])
